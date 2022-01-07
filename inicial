@@ -1,0 +1,13 @@
+<script type="text/javascript">
+$(document).ready(function() {
+$(".ewToolbar").hide();
+});
+</script>
+<div class="modal-content">
+	 <div class="modal-header"><b><center>Bem vindo !!!</div>
+	 <div class="modal-body">inscreva-se no canl e compartilhe....
+e dê seu like.
+		<div class="modal-footer">
+  </div>
+	 </div>
+ </div>

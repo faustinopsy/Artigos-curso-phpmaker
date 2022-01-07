@@ -1,0 +1,448 @@
+<?xml version="1.0" standalone="yes"?>
+<ew-language date="2016/10/29" version="13.0.0" id="br" name="Portugues" desc="Portugues" author="ROdrigo Faustino.">
+  <locale>
+    <phrase id="use_system_locale" value="1" />
+    <phrase id="decimal_point" value="." />
+    <phrase id="thousands_sep" value="," />
+    <phrase id="currency_symbol" value="$" />
+  </locale>
+  <global>
+    <phrase id="actiondeleted" value="EXCLUIDO" />
+    <phrase id="actioninserted" value="INSERIDO" />
+    <phrase id="actioninsertedgridadd" value="INSERIDO (Grid-Add)" />
+    <phrase id="actionupdated" value="ATUALIZADO" />
+    <phrase id="actionupdatedgridedit" value="ATUALIZADO (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="ATUALIZADO (Multi-Update)" />
+    <phrase id="activateaccount" value="SUA CONTA ESTA ATIVADA" />
+    <phrase id="activatefailed" value="FALHA NA ATIVACAO" />
+    <phrase id="add" value="ADICIONAR PARA" />
+    <phrase id="addblankrow" value="ADICIONAR LINHA EM BRANCO" />
+    <phrase id="addbtn" value="ADICIONAR" />
+    <phrase id="addlink" value="ADICIONAR" />
+    <phrase id="addsuccess" value="ADICIONADO COM SUCESSO" />
+    <phrase id="advancedsearch" value="PROCURA AVANCADA" />
+    <phrase id="allrecords" value="TODOS" />
+    <phrase id="allword" value="TODAS AS PALAVRAS" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <phrase id="anyword" value="UMA PALAVRA" />
+    <phrase id="audittrailautologin" value="AUTO LOGAR" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="USUARIO JA ESTA LOGADO" />
+    <phrase id="audittrailpasswordexpired" value="SENHA EXPIRADA" />
+    <phrase id="audittraillogin" value="LOGIN" />
+    <phrase id="audittraillogout" value="SAIR" />
+    <phrase id="autologin" value="LOGIN AUTOMATICO ATE EU SAIR EXPLICITAMENTE" />
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="VOLTAR PARA LISTA" />
+    <phrase id="backtologin" value="VOLTAR PARA PAGINA DE LOGIN" />
+    <phrase id="backtomasterrecordpage" value="VOLTAR PARA TABELA MESTRE" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="cancelbtn" value="CANCELAR" />
+    <phrase id="cancellink" value="CANCELAR" />
+    <phrase id="changepwd" value="MUDAR SENHA" />
+    <phrase id="changepwdpage" value="PAGINA DE MUDANCA DE SENHA" />
+    <phrase id="changepwdbtn" value="MUDAR SENHA" />
+    <phrase id="confirm" value="CONFIRMAR" />
+    <phrase id="confirmbtn" value="CONFIRMAR" />
+    <phrase id="confirmpassword" value="CONFIRMAR SENHA" />
+    <phrase id="conflictcancellink" value="CANCELAR" />
+    <phrase id="copylink" value="COPIAR" />
+    <phrase id="count" value="CONTAR" />
+    <phrase id="customview" value="VISAO CUSTOMIZADA" />
+    <phrase id="delete" value="EXCLUIR DE" />
+    <phrase id="deletebtn" value="CONFIRMAR EXCLUSAO" />
+    <phrase id="deletecancelled" value="CANCELAR EXCLUSAO" />
+    <phrase id="deleteconfirmmsg" value="QUER REALMENTE EXCLUIR ESTE REGISTRO?" client="1" />
+    <phrase id="deletelink" value="EXCLUIR" />
+    <phrase id="deletemulticonfirmmsg" value="TEM CERTEZA QUE QUER EXCLUIR ESTE REGISTRO?" client="1" />
+    <phrase id="deleteselectedlink" value="REGISTRO SELECIONADO EXCLUIDO" />
+    <phrase id="deletesuccess" value="EXCLUIDO COM SUCESSO" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="(%c)" />
+    <phrase id="dupindex" value="VALOR DUPLICADO '%v' for unique index '%f'" />
+    <phrase id="dupkey" value="CHAVE PRIMARIA DUPLICADA: '%f'" />
+    <phrase id="edit" value="EDITAR" />
+    <phrase id="editbtn" value="EDITAR" />
+    <phrase id="editlink" value="EDITAR" />
+    <phrase id="enternewpassword" value="ENTRE COM A NOVA SENHA" client="1" />
+    <phrase id="enteroldpassword" value="ENTRE COM A NOVA SENHA" client="1" />
+    <phrase id="enterpassword" value="ENTRE COM A SENHA" client="1" />
+    <phrase id="enterpwd" value="ENTRE COM A SENHA" client="1" />
+    <phrase id="enterrequiredfield" value="ENTRE COM O CAMPO REQUERIDO" client="1" />
+    <phrase id="entersearchcriteria" value="ENTRE COM O CRITERIO DE BUSCA" />
+    <phrase id="enterusername" value="ENTRE COM O NOME DE USUARIO" client="1" />
+    <phrase id="entervalidatecode" value="ENTRE COM O CODIGO DE VALIDACAO" client="1" />
+    <phrase id="entersenderemail" value="ENTRE COM O EMAIL" client="1" />
+    <phrase id="enterpropersenderemail" value="NUMERO MAXIMO DE EMAIL EXCEDIDO OU ENDERECO DE EMAIL INVALIDO" client="1" />
+    <phrase id="enterrecipientemail" value="ENTRE COM O CORPO DO EMAIL" client="1" />
+    <phrase id="enterproperrecipientemail" value="NUMERO MAXIMO DE EMAIL EXCEDIDO OU EMAIL INCORRETO" client="1" />
+    <phrase id="enterproperccemail" value="NUMERO MAXIMO DE CC EXCEDIDO OU EMAIL INCORRETO" client="1" />
+    <phrase id="enterproperbccemail" value="NUMERO MAXIMO DE CCO OU EMAIL INVALIDO" client="1" />
+    <phrase id="entersubject" value="ENTRE COM O ASSUNTO" client="1" />
+    <phrase id="emailformsender" value="DE" />
+    <phrase id="emailformrecipient" value="PARA" />
+    <phrase id="emailformcc" value="CC" />
+    <phrase id="emailformbcc" value="CCO" />
+    <phrase id="emailformsubject" value="ASSUNTO" />
+    <phrase id="emailformmessage" value="MENSAGEM" />
+    <phrase id="emailformcontenttype" value="ENVIAR PARA" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="enteruid" value="ENTRE COM O ID DO USUARIO" client="1" />
+    <phrase id="entervalidemail" value="ENTRE COM UM EMAIL VALIDO!" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="EXCEDIDO O NUMERO MAXIMO DE TENTATIVAS CONTA BLOQUEADA TENTE NOVAMENTE EM %t minutes" />
+    <phrase id="exceedmaxemailexport" value="NUMERO MAXIMO D EXPORTACAO POR EMAIL TENTE MAIS TARDE" />
+    <phrase id="exporttocsv" value="EXPORTE PARA CSV" />
+    <phrase id="exporttoemail" value="EMAIL" client="1" />
+    <phrase id="exporttoexcel" value="EXPORTE PARA Excel" />
+    <phrase id="exporttohtml" value="EXPORTE PARA HTML" />
+    <phrase id="exporttopdf" value="EXPORTE PARA PDF" />
+    <phrase id="exporttoword" value="EXPORTE PARA Word" />
+    <phrase id="exporttoxml" value="EXPORTE PARA XML" />
+    <phrase id="failedtosendmail" value="FALHA NO ENVIO DO EMAIL. " />
+    <phrase id="fieldname" value="Field Name" />
+    <phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;" />
+    <phrase id="overwritebtn" value="Overwrite" />
+    <phrase id="overwritelink" value="Overwrite" />
+    <phrase id="forgotpwd" value="ESQUECI A SENHA" />
+    <phrase id="goback" value="VOLTAR" />
+    <phrase id="gridaddlink" value="Grid ADICIONAR" />
+    <phrase id="gridcancellink" value="CANCELAR" />
+    <phrase id="grideditlink" value="Grid EDITAR" />
+    <phrase id="gridinsertlink" value="INSERIR" />
+    <phrase id="gridsavelink" value="SALVAR" />
+    <phrase id="hidehighlight" value="Hide highlight" client="1" />
+    <phrase id="incorrectcreditcard" value="NUMERO DE CARTAO DE CREDITO INVALIDO" />
+    <phrase id="incorrectdateymd" value="DATA INCORRETA, FORMATO = yyyy%smm%sdd" />
+    <phrase id="incorrectdatemdy" value="DATA INCORRETA, FORMATO = mm%sdd%syyyy" />
+    <phrase id="incorrectdatedmy" value="DATA INCORRETA, FORMATO = dd%smm%syyyy" />
+    <phrase id="incorrectshortdateymd" value="DATA INCORRETA, FORMATO = yy%smm%sdd" />
+    <phrase id="incorrectshortdatemdy" value="DATA INCORRETA, FORMATO = mm%sdd%syy" />
+    <phrase id="incorrectshortdatedmy" value="DATA INCORRETA, FORMATO = dd%smm%syy" />
+    <phrase id="incorrectemail" value="EMAIL INCORRETO" client="1" />
+    <phrase id="incorrectfield" value="EMAIL INCORRETO" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="NUMERO DE TELEFONE INCORRETO" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectrange" value="NUMERO DEVE ESTA ENTRE %1 and %2" client="1" />
+    <phrase id="incorrectssn" value="NUMERO DE SEGURANCA INCORRETO" client="1" />
+    <phrase id="incorrecttime" value="HORA INCORRETA (hh:mm:ss)" client="1" />
+    <phrase id="incorrectzip" value="CEP INCORRETO" client="1" />
+    <phrase id="inlineaddlink" value="ADICIONAR LINHA" />
+    <phrase id="inlinecopylink" value="COPIAR LINHA" />
+    <phrase id="inlineeditlink" value="EDITAR LINHA" />
+    <phrase id="insertcancelled" value="INSERCAO CANCELADO" />
+    <phrase id="insertfailed" value="FLAHA NA INSERCAO" client="1" />
+    <phrase id="insertlink" value="INSERIR" />
+    <phrase id="insertsuccess" value="INSERIDO COM SUCESSO" />
+    <phrase id="invalidemail" value="EMAIL INVALIDO" />
+    <phrase id="invalidfield" value="CAMPO INVALIDO" />
+    <phrase id="invalidkeyvalue" value="VALOR DA CHAVE INVALIDO" />
+    <phrase id="invalidrecord" value="REGISTRO INVALIDO! CHAVE NULA" client="1" />
+    <phrase id="invalidparameter" value="PARAMETRO INVALIDO" />
+    <phrase id="invalidpassword" value="SENHA INVALIDA" />
+    <phrase id="invalidnewpassword" value="NOVA SENHA INVALIDA" />
+    <phrase id="invaliduidpwd" value="ID DE USUARIO OU SENHA INVALIDA" />
+    <phrase id="keep" value="Keep" />
+    <phrase id="language" value="LINGUAGEM" />
+    <phrase id="loading" value="ESPERE..." client="1" />
+    <phrase id="login" value="LOGIN" />
+    <phrase id="logincancelled" value="LOGIN CANCELADO" />
+    <phrase id="loginpage" value="PAGINA DE LOGIN" />
+    <phrase id="logout" value="SAIR" />
+    <phrase id="masterrecord" value="REGISTRO MESTRE: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="MENU" />
+    <phrase id="new" value="NOVO" />
+    <phrase id="newpassword" value="NOVA SENHA" />
+    <phrase id="newvalue" value="NOVO VALOR" />
+    <phrase id="next" value="PROXIMO" />
+    <phrase id="noaddrecord" value="NENHUM REGISTRO INCLUIDO" client="1" />
+    <phrase id="nofieldselected" value="CAMPO NAO SELECIONADO PARA ATUALIZAR" client="1" />
+    <phrase id="nopermission" value="VOCE NAO TEM PERMISAO PARA ACESSAR ESTA PAGINA." />
+    <phrase id="noaddpermission" value="VOCE NAO TEM PERMISSAO PARA ADICIONAR O REGISTRO." />
+    <phrase id="nodeletepermission" value="VOCE NAO TEM PERMISAO PARA APAGAR O REGISTRO." />
+    <phrase id="noeditpermission" value="VOCE NAO TEM PERMISAO PARA EDITAR O REGISTRO." />
+    <phrase id="norecord" value="REGISTRO NAO ENCONTRADO" />
+    <phrase id="norecordforkey" value="REGISTO NAO ENCONTRADO PARA ESTA CHAVE = " />
+    <phrase id="norecordselected" value="REGISTRO NAO SELECIONADO" client="1" />
+    <phrase id="notablegenerated" value="TABELA NAO GERADA" />
+    <phrase id="nouserlevel" value="No user level settings." />
+    <phrase id="of" value="of" />
+    <phrase id="old" value="ANTIGA" />
+    <phrase id="oldpassword" value="SENHA ANTIGA" />
+    <phrase id="optionalreadyexist" value="OPCAO JA EXISTE" />
+    <phrase id="page" value="PAGINA" />
+    <phrase id="pagerfirst" value="PRIMEIRO" />
+    <phrase id="pagerlast" value="ULTIMO" />
+    <phrase id="pagernext" value="PROXIMO" />
+    <phrase id="pagerprevious" value="ANTERIOR" />
+    <phrase id="password" value="SENHA" />
+    <phrase id="passwordrequest" value="SENHA REQUERIDA" />
+    <phrase id="passwordchanged" value="SENHA MODIFICADA" />
+    <phrase id="passwordexpired" value="SENHA EXPIRADA. MUDE A SENHA." />
+    <phrase id="permission" value="PERMISAO" />
+    <phrase id="permissionaddcopy" value="ADICIONAR/COPIAR" />
+    <phrase id="permissiondelete" value="EXCLUIR" />
+    <phrase id="permissionedit" value="EDITAR" />
+    <phrase id="permissionlistsearchview" value="LISTA/PROCURA/VER" />
+    <phrase id="permissionlist" value="LISTA" />
+    <phrase id="permissionsearch" value="PROCURA" />
+    <phrase id="permissionview" value="VER" />
+    <phrase id="pickdate" value="Pick a date" />
+    <phrase id="pleaseselect" value="SELECIONE" />
+    <phrase id="pleasewait" value="ESPERE..." client="1" />
+    <phrase id="primarykeyunspecified" value="CHAVE NAO ESPECIFICADA" />
+    <phrase id="printerfriendly" value="IMPRIMIR Friendly" />
+    <phrase id="prev" value="Prev" />
+    <phrase id="pwdemailsent" value="SENHA ENVIADA POR EMAIL" />
+    <phrase id="quicksearch" value="PROCURA RAPIDA" />
+    <phrase id="quicksearchbtn" value="PROCURA (*)" />
+    <phrase id="record" value="REGISTROS" />
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="REGISTRO(s) EXCLUIDO" />
+    <phrase id="recordinserted" value="REGISTRO(s) inserted" />
+    <phrase id="recordupdated" value="REGISTRO(s) updated" />
+    <phrase id="recordsperpage" value="Page Size" />
+    <phrase id="register" value="CADASTRO" />
+    <phrase id="registerbtn" value="CADASTRO" />
+    <phrase id="registersuccess" value="CADASTRADO COM SUCESSO" />
+    <phrase id="registersuccessactivate" value="CADASTRO. AUM EMAIL FOI ENVIADO PARA SEU ENDERECO DE EMAIL, CLIQUE NO LINK ENVIADO PARA ATIVAR SUA CONTA." />
+    <phrase id="registerpage" value="PAGINA DE CADASTRO" />
+    <phrase id="reloadbtn" value="Reload" />
+    <phrase id="reloadlink" value="Reload" />
+    <phrase id="rememberme" value="LEMBRAR-ME" />
+    <phrase id="remove" value="ESQUECER-ME" />
+    <phrase id="replace" value="REPETIR" />
+    <phrase id="report" value="RELATORIO" />
+    <phrase id="requestpwdpage" value="PAGINA DE RECUPERACAO DE SENHA" />
+    <phrase id="reset" value="RESETAR" />
+    <phrase id="resetsearch" value="RESETAR" />
+    <phrase id="rptavg" value="Average" />
+    <phrase id="rptdtlrec" value="DETALHE DO REGISTRO" />
+    <phrase id="rptgrandtotal" value="Grand Total" />
+    <phrase id="rptmax" value="MAXIMO" />
+    <phrase id="rptmin" value="MINIMO" />
+    <phrase id="rptsum" value="SOME" />
+    <phrase id="rptsumhead" value="Summary for" />
+    <phrase id="saveusername" value="SALVE MEU NOME DE USUARIO" />
+    <phrase id="search" value="PROCURA" />
+    <phrase id="sendemailbtn" value="ENVIAR" />
+    <phrase id="sendemailsuccess" value="EMAIL ENVIADO COM SUCESSO" client="1" />
+    <phrase id="sendpwd" value="SENHA ENVIADA" />
+    <phrase id="showall" value="MOSTRAR TODOS" />
+    <phrase id="showhighlight" value="Show highlight" client="1" />
+    <phrase id="srchlegend" value="&amp;nbsp;(*)" />
+    <phrase id="table" value="TABELA" />
+    <phrase id="tbltypetable" value="TABELA: " />
+    <phrase id="tbltypeview" value="VISAO: " />
+    <phrase id="tbltypecustomview" value="VISAO CUSTOMIZADA: " />
+    <phrase id="tbltypereport" value="RELATORIO: " />
+    <phrase id="to" value="PARA" />
+    <phrase id="total" value="TOTAL" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="unmatchedvalue" value="&lt;img src=&quot;%fwarn.gif&quot; alt=&quot;Value does not exist&quot; title=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;15&quot; style=&quot;border: 0;&quot;&gt;" />
+    <phrase id="update" value="ATUALIZAR" />
+    <phrase id="updatebtn" value="ATUALIZAR" />
+    <phrase id="updatecancelled" value="ATUALIZACAO CANCELADA" />
+    <phrase id="updatefailed" value="FALHA NA ATUALIZACAO" />
+    <phrase id="updatelink" value="ATUALIZAR" />
+    <phrase id="updateselectedlink" value="REGISTRO SELECIONADO ATUALIZADO" />
+    <phrase id="updatesuccess" value="ATUALIZADO COM SUCESSO" />
+    <phrase id="uploading" value="Uploading..." client="1" />
+    <phrase id="updatevalue" value="ATUALIZAR" />
+    <phrase id="useremail" value="EMAIL DO USUARIO" />
+    <phrase id="userexists" value="USUARIO JA EXISTE" />
+    <phrase id="userlevel" value="USUARIO LEVEL: " />
+    <phrase id="userleveladministratorname" value="NIVEL DE USUARIO PARA USUARIO DE NIVEL -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelpermission" value="NIVEL DE PERMISAO" />
+    <phrase id="userlevelidinteger" value="NIVEL DE USUARIO ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="NIVEL DE USUARIO PARA USUARIO DE NIVEL 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="NIVEL DE USUARIO NAO DEFINIDO COMO 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="User '%u' JA LOGADO!" />
+    <phrase id="username" value="User Name" />
+    <phrase id="userprofilecorrupted" value="PERFIL DO USUARIO CORROMPIDO. Please logout and login again" />
+    <phrase id="view" value="VISAO" />
+    <phrase id="viewlink" value="VISAO" />
+    <phrase id="viewpageaddlink" value="ADICIONAR" />
+    <phrase id="viewpagecopylink" value="COPIAR" />
+    <phrase id="viewpagedeletelink" value="EXCLUIR" />
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="EDITAR" />
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="tableorview" value="Tables" />
+    <phrase id="=" value="" />
+    <phrase id="&lt;&gt;" value="&lt;&gt;" />
+    <phrase id="&lt;" value="&lt;" />
+    <phrase id="&lt;=" value="&lt;=" />
+    <phrase id="&gt;" value="&gt;" />
+    <phrase id="&gt;=" value="&gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="not contains" />
+    <phrase id="starts with" value="starts with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="ONDE" />
+    <phrase id="and" value="E" />
+    <phrase id="or" value="OU" />
+  </global>
+  <project>
+    <phrase id="bodytitle" value="Artigos" />
+    <phrase id="footertext" value="&amp;copy;2015 Increva-se no canal e dê seu like ao vídeo." />
+    <menu id="6">
+      <phrase id="menutext" value="home" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="comentarios" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="conteudo" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="usuarios" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="edicao" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="artigos" />
+    </menu>
+    <table id="conteudo">
+      <phrase id="tblcaption" value="conteudo" />
+      <field id="idcontent">
+        <phrase id="fldcaption" value="idcontent" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="imagem">
+        <phrase id="fldcaption" value="imagem" />
+      </field>
+      <field id="conteudo">
+        <phrase id="fldcaption" value="Artigo" />
+      </field>
+      <field id="aprov">
+        <phrase id="fldcaption" value="aprov" />
+      </field>
+      <field id="visual">
+        <phrase id="fldcaption" value="visulizados" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="user" />
+      </field>
+    </table>
+    <table id="comentarios">
+      <phrase id="tblcaption" value="comentarios" />
+      <field id="idcoment">
+        <phrase id="fldcaption" value="idcoment" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="Autor" />
+      </field>
+      <field id="coment">
+        <phrase id="fldcaption" value="Comentario" />
+      </field>
+      <field id="idcontent">
+        <phrase id="fldcaption" value="idcontent" />
+      </field>
+    </table>
+    <table id="usuarios">
+      <phrase id="tblcaption" value="usuarios" />
+      <field id="iduser">
+        <phrase id="fldcaption" value="iduser" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="senha">
+        <phrase id="fldcaption" value="senha" />
+      </field>
+      <field id="priv">
+        <phrase id="fldcaption" value="priv" />
+        <phrase id="fldtagvalue1" value="-2" />
+        <phrase id="fldtagcaption1" value="Anonymous" />
+        <phrase id="fldtagvalue2" value="-1" />
+        <phrase id="fldtagcaption2" value="Administrator" />
+        <phrase id="fldtagvalue3" value="0" />
+        <phrase id="fldtagcaption3" value="Default" />
+        <phrase id="fldtagvalue4" value="1" />
+        <phrase id="fldtagcaption4" value="criador" />
+        <phrase id="fldtagvalue5" value="2" />
+        <phrase id="fldtagcaption5" value="editor" />
+      </field>
+      <field id="sess">
+        <phrase id="fldcaption" value="sess" />
+      </field>
+    </table>
+    <table id="edicao">
+      <phrase id="tblcaption" value="edicao" />
+      <field id="idcontent">
+        <phrase id="fldcaption" value="idcontent" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="imagem">
+        <phrase id="fldcaption" value="imagem" />
+      </field>
+      <field id="conteudo">
+        <phrase id="fldcaption" value="Artigo" />
+      </field>
+      <field id="aprov">
+        <phrase id="fldcaption" value="Aprovar" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Aprovado" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="Não aprovado" />
+      </field>
+    </table>
+    <table id="artigos">
+      <phrase id="tblcaption" value="artigos" />
+      <field id="idcontent">
+        <phrase id="fldcaption" value="idcontent" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo" />
+      </field>
+      <field id="imagem">
+        <phrase id="fldcaption" value="imagem" />
+      </field>
+      <field id="conteudo">
+        <phrase id="fldcaption" value="Artigo" />
+      </field>
+      <field id="aprov">
+        <phrase id="fldcaption" value="aprov" />
+      </field>
+      <field id="visual">
+        <phrase id="fldcaption" value="visual" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="user" />
+      </field>
+    </table>
+    <table id="inicial_php">
+      <phrase id="tblcaption" value="home" />
+    </table>
+  </project>
+</ew-language>

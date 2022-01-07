@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2016/10/29" author="e.World Technology Ltd.">
+  <project id="{62B16F30-7B01-4FF2-AFCB-D258EDB35A44}" file="C:\Users\Flash\Documents\PHPMaker\Projects\artigos.pmp" name="artigos" product="PHPMaker" version="13.0" datetime="2016/10/29 15:00:59" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,43;2,&quot;editor&quot;,44">
+    <table id="conteudo" name="conteudo" caption="conteudo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,43;2,&quot;editor&quot;,0" priv="1" />
+    <table id="comentarios" name="comentarios" caption="comentarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,43;1,&quot;criador&quot;,43;2,&quot;editor&quot;,43" priv="1" />
+    <table id="usuarios" name="usuarios" caption="usuarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,9;2,&quot;editor&quot;,32" priv="1" />
+    <table id="edicao" name="edicao" caption="edicao" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,104;2,&quot;editor&quot;,44" priv="1" />
+    <table id="artigos" name="artigos" caption="artigos" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,111;1,&quot;criador&quot;,104;2,&quot;editor&quot;,40" priv="1" />
+    <table id="inicial_php" name="inicial.php" caption="home" userlevel="-2,&quot;Anonymous&quot;,8;0,&quot;Default&quot;,8;1,&quot;criador&quot;,8;2,&quot;editor&quot;,8" priv="1" />
+  </project>
+</configuration>

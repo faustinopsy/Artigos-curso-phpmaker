@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration date="2015/11/21" author="e.World Technology Ltd.">
+<project id="{F2C90BFA-3288-472C-AFE6-751534E768F7}" file="" name="project1" product="PHPMaker" version="12.0" datetime="2015/11/21 01:18:42" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,43;2,&quot;editor&quot;,44">
+<table id="comentarios" name="comentarios" caption="comentarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,43;1,&quot;criador&quot;,43;2,&quot;editor&quot;,43" priv="1"/>
+<table id="conteudo" name="conteudo" caption="conteudo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,43;2,&quot;editor&quot;,0" priv="1"/>
+<table id="usuarios" name="usuarios" caption="usuarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,9;2,&quot;editor&quot;,32" priv="1"/>
+<table id="edicao" name="edicao" caption="edicao" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;criador&quot;,104;2,&quot;editor&quot;,44" priv="1"/>
+<table id="artigos" name="artigos" caption="artigos" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,111;1,&quot;criador&quot;,104;2,&quot;editor&quot;,40" priv="1"/>
+<table id="inicial_php" name="inicial.php" caption="home" userlevel="-2,&quot;Anonymous&quot;,8;0,&quot;Default&quot;,8;1,&quot;criador&quot;,8;2,&quot;editor&quot;,8" priv="1"/>
+</project></configuration>
